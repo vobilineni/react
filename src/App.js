@@ -3,11 +3,11 @@ import './styles/App.css';
 
 class App extends Component {
   render() {
-      var myStyle ={
+      let myStyle ={
           fontSize: 100,
           color: '#F00'
       }
-      var i = 1;
+      let i = 1;
     return (
       <div>
           <h1 style ={myStyle}>{i === 1 ? 'true':'false'}</h1>
