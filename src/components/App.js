@@ -6,7 +6,7 @@ class App extends Component {
       let myStyle ={
           fontSize: 100,
           color: '#F00'
-      }
+      };
       let i = 1;
     return (
       <div>
